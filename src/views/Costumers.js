@@ -1,10 +1,11 @@
 import React from 'react'
+import MyForm from '../components/MyForm'
 
 const Costumers = () => {
     return (
-        <div>
-            Costumers
-        </div>
+        <>
+            <MyForm />
+        </>
     )
 }
 
