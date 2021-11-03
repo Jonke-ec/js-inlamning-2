@@ -1,12 +1,12 @@
 import React from 'react'
 
-const MyCard = () => {
+const MyCard = ({name, email, message}) => {
     return (
         <div className="card w-50 container m-3">
             <div className="card-body">
-                <h5 className="card-title">Juni Ida Linéa Askling</h5>
-                <h6 className="card-subtitle mb-2 text-muted">juni.askling@gmail.com</h6>
-                <p className="card-text">Världens bästa bebis.</p>
+                <p className="card-title"><strong>{name}</strong></p>
+                <p className="card-subtitle mb-2 text-muted">{email}</p>
+                <p className="card-text">{message}</p>
             </div>
         </div>
     )
