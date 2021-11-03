@@ -1,10 +1,11 @@
 import React from 'react'
 import MyCard from '../components/MyCard'
+import CardGrid from '../components/CardGrid'
 
 const Home = () => {
     return (
         <div>
-            <MyCard name="Juni Ida Linéa Askling" email="juni.askling@gmail.com" message="Världens bästa bebis." />
+            <CardGrid />
         </div>
     )
 }
