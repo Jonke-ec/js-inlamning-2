@@ -1,7 +1,7 @@
 import React from 'react'
 import MyForm from '../components/MyForm'
 
-const Costumers = () => {
+const Customers = () => {
     return (
         <>
             <MyForm />
@@ -9,4 +9,4 @@ const Costumers = () => {
     )
 }
 
-export default Costumers
+export default Customers

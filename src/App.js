@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-import Costumers from './views/Costumers';
+import Customers from './views/Customers';
 import Home from './views/Home';
 
 import Navbar from './components/Navbar';
@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <Navbar />
       <Switch>
-        <Route path="/costumers" exact component={Costumers} />
+        <Route path="/customers" exact component={Customers} />
         <Route path="/" exact component={Home} />
       </Switch>
     </BrowserRouter>
